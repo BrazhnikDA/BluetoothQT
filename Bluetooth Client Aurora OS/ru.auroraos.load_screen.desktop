@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.auroraos.load_screen
+Exec=invoker --type=silica-qt5 -s /usr/bin/ru.auroraos.load_screen
+Name=BluetoothScanner
+Name[ru]=БлютузСканер
+
+[X-Application]
+Permissions=DeviceInfo;Bluetooth;Internet
+OrganizationName=ru.auroraos
+ApplicationName=load_screen
+ExecDBus=invoker --type=silica-qt5 -s /usr/bin/ru.auroraos.load_screen
