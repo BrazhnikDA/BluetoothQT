@@ -102,5 +102,4 @@ void BluetoothMessengerClient::readSocket() {
     QString receivedMessage = QString::fromUtf8(socket->readLine().trimmed());
     emit messageReceived(receivedMessage);
     emit clientStatusChanged("Message received");
-    stopClient();
 }
